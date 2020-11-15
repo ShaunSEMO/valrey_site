@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Project_img extends Model
 {
     use HasFactory;
+
+    protected $gaurded = [];
+    
+    public function project() {
+        return $this->belongsTo('App\Models\Project');
+    }
 }

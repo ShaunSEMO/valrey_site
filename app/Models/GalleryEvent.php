@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class GalleryEvent extends Model
 {
     use HasFactory;
+
+    public function pictures(){
+
+        return $this->hasMany('App\Models\Picture');
+        
+    }
 }

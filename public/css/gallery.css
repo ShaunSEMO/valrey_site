@@ -1,0 +1,29 @@
+.header {
+    min-height: 100vh;
+    background-image: url('../img/galleryHeader.png');
+    background-size: cover;
+    background-position: top center;
+    text-align: center;
+}
+
+.header * {
+    color: white ;
+}
+
+.header-content {
+    margin-top: 200px;
+}
+
+.image {
+    background-size: cover;
+}
+
+.each-image:hover {
+    box-shadow: 0px 0px 50px rgba(59, 0, 61, 0.411);
+    transition: 0.3s ease;
+}
+
+/* * {
+    border: 1px solid red !important;
+} */
+

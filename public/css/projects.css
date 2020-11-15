@@ -1,0 +1,13 @@
+.small-nav {
+    background-image: url('../img/blogHeader_c.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.project {
+    text-align: center;
+}
+
+/* * {
+    border: 1px solid red;
+} */

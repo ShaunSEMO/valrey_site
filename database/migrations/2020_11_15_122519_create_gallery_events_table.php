@@ -15,6 +15,7 @@ class CreateGalleryEventsTable extends Migration
     {
         Schema::create('gallery_events', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->timestamps();
         });
     }
